@@ -1,5 +1,3 @@
-# TG @Zigatase
-
 import requests
 import datetime
 
