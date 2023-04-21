@@ -32,7 +32,7 @@ def data_analysis():
 
         # Выводим в консоль Прайс и Время входа
         print(f"--- Data: {ENTRY_POINT_TIME} ---"
-              f"\n--- Price ETH-USDT: {ENTRY_POINT_PRICE}      ---")
+              f"\n--- Price ETH-USDT: {ENTRY_POINT_PRICE} ---")
 
         while True:
             # Записываем цену в моменте получения данных
@@ -44,7 +44,7 @@ def data_analysis():
 
             # Если цена не поднялась, то мы пишем об этом (можно выключить для оптимизации программы)
             else:
-                print(f"\n --- Прайс не вырос на 1 процент от точки входа: {moment_price_eth_usdt} ---\n")
+                print(f"\n --- Прайс не вырос на 1 процент от точки входа: {moment_price_eth_usdt} ---")
 
     # Ловим и выводим ошибку если она появляется (Сделал except общего вида)
     except Exception as ex:
